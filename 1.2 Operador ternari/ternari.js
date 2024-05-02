@@ -49,7 +49,7 @@ const trobarMaxim = (a, b, c) => {
     const maximo= a > b ? (a > c ? a : c) : (b > c ? b : c);
     return maximo; 
 }
-let resultado = trobarMaxim(8, 10, 10);
+let resultado = trobarMaxim(8, 10, 12);
 console.log("El máximo es:", resultado); 
 
 
